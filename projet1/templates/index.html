@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.css">
+    <script src="all.js" async></script>
+    <link rel="stylesheet" href="responsive.css">
+    <script src="script.js" async></script>
+    <title>Page Chat1</title>
+</head>
+
+<body>
+    <!-- <i class="fa-solid fa-bars"></i>
+     <i class="fa-solid fa-microphone-slash"></i>
+     <i class="fa-solid fa-microphone"></i>
+     <i class="fa-solid fa-xmark"></i>
+    <i class="fa-solid fa-paper-plane"></i>
+    <i class="fa-regular fa-paper-plane"></i>
+    <i class="fa-solid fa-comment"></i>
+    <i class="fa-regular fa-comment"></i>
+    <i class="fa-solid fa-robot"></i> -->
+    <header>
+        <div class="logo">
+            <p>
+                <strong>
+                    Page Chat
+                </strong>
+            </p>
+        </div>
+        <nav>
+            <a href="#">Acceuil</a>
+            <a href="#">A propos</a>
+            <a href="#">Chat</a>
+        </nav>
+        <div class="menu">
+            <div class="speech_menu">
+                <div class="speech">
+                    <span id="sond" class="sond_off"><i class="fa-solid fa-microphone"></i></span>
+                </div>
+                <span id="menu"><i class="fa-solid fa-bars"></i></span>
+            </div>
+            <nav class="main_menu main_menu_anim_off">
+                <div>
+                <li><a href="#">Acceuil</a></li>
+                <li><a href="#">A propos</a></li>
+                <li><a href="#">Chat</a></li>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="corps">
+            <div class="formChat">
+                <div class="headerChat">
+                    <strong>
+                        Chatbot
+                    </strong>
+                </div>
+                <div class="groupChat">
+                    <div class="chats">
+                        <div class="robot chat">
+                            <div class="profil">
+                                <span><i class="fa-solid fa-robot"></i></span>
+                            </div>
+                            <div class="texte">
+                                Lorem ipsum dolor sit amet. <br>
+                                Lorem ipsum dolor sit amet. <br>
+                                Lorem, ipsum dolor.
+                            </div>
+                        </div>
+                        <div class="you chat">
+                            <div class="texte">
+                                Lorem ipsum dolor sit amet. <br>
+                                Lorem ipsum dolor sit amet. <br>
+                                Lorem, ipsum dolor.
+                            </div>
+                            <div class="profil">
+                                <img src="images/image3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <form action="" method="post">
+                        <textarea name="" id="message" placeholder="Votre texte"></textarea>
+                        <div>
+                            <button id="send_message" type="submit">
+                                <span><i class="fa-regular fa-paper-plane"></i></span>
+                            </button>
+                        </div>
+                        </form>
+                        <div class="speech">
+                            <span id="sond" class="sond_off"><i class="fa-solid fa-microphone"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="login">
+                <form id="form_login" action="" method="post">
+                    <p>Connexion</p>
+                    <input type="text" name="user_name" id="user_name" placeholder="user_name"><br>
+                    <button type="submit" id="connexion">connexion</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
